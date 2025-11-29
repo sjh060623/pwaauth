@@ -162,20 +162,6 @@ export default function LockPage() {
         >
           다시 잠그기
         </button>
-        <pre
-          style={{
-            marginTop: 16,
-            maxHeight: 200,
-            overflow: "auto",
-            fontSize: 12,
-            background: "#f5f5f5",
-            padding: 8,
-            width: "100%",
-            maxWidth: 400,
-          }}
-        >
-          {log}
-        </pre>
       </div>
     );
   }
@@ -201,7 +187,7 @@ export default function LockPage() {
         style={{
           padding: "12px 24px",
           borderRadius: 999,
-          border: "1px solid #000",
+          border: "1px solid #fff",
           fontSize: 16,
           marginTop: 8,
           opacity: loading || !hasCredential ? 0.5 : 1,
